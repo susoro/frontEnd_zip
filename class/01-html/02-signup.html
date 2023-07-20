@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>회원가입</title>
+    <link
+      href="https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/variable/woff2/SUIT-Variable.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: "SUIT Variable", sans-serif;
+      }
+      input[type="text"],
+      [type="password"] {
+        display: block;
+        width: 200px;
+        margin-top: 15px;
+        text-align: left;
+      }
+      .wrap {
+        display: flex;
+        margin-top: 1px;
+      }
+      button {
+        margin-top: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>회원가입</h1>
+
+    <input type="text" placeholder="이메일을 입력해 주세요." />
+    <input type="text" placeholder="이름을 입력해 주세요." />
+    <input type="password" placeholder="비밀번호를 입력해 주세요." />
+    <input type="password" placeholder="비밀번호를 다시 입력해 주세요." />
+    <select name="지역">
+      <option value="">지역을 선택하세요</option>
+      <option value="부산">부산</option>
+      <option value="서울">서울</option>
+      <option value="대전">대전</option>
+      <option value="대구">대구</option>
+      <option value="제주도">제주도</option>
+      <option value="강릉">강릉</option>
+    </select>
+
+    <div class="wrap">
+      <input type="radio" id="남자" name="남자" value="남자" />
+      <label for="남자">남자</label>
+      <input type="radio" id="여자" name="여자" value="여자" />
+      <label for="여자">여자</label>
+    </div>
+    <div class="wrap">
+      <input type="checkbox" id="horns" name="horns" />
+      <label for="horns">이용 약관 개인정보 수집및 </label>
+    </div>
+    <button>가입하기</button>
+  </body>
+</html>
