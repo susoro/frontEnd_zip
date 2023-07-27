@@ -6,3 +6,10 @@ const array = ["배열"]
 // 배열 요소 정렬 : array.sort()
 // 배열 데이터 확인 : array.includes(값)
 
+let classmate = ["수경수", "징징이", "밍이"]
+console.log(classmate);
+
+// classmate[0]
+// classmate[1]
+// classmate[2]
+
