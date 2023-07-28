@@ -9,7 +9,14 @@ const array = ["배열"]
 let classmate = ["수경수", "징징이", "밍이"]
 console.log(classmate);
 
-// classmate[0]
-// classmate[1]
-// classmate[2]
+classmate[0]
+classmate[1]
+classmate[2]
 
+classmate.includes("밍이") //true
+classmate.includes("맹구") //false
+
+classmate.length
+classmate.push("빵빵이")
+classmate.pop()
+classmate.length //3
