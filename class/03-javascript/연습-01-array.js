@@ -39,5 +39,3 @@ developer.concat(dream)
 let result = developer.concat(dream)
 console.log(result)
 
-// 문자열도 배열처럼 다룰수 있다
-// 이메일 마스킹 작업하기
