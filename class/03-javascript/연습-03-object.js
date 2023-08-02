@@ -14,3 +14,6 @@ friend[1]///{name: '밍밍이', age: 130, location: '화성'}
 
 friend.length //2
 friend[0].location //지구
+
+
+
