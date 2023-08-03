@@ -21,3 +21,8 @@ fruits[6].number +  " " + fruits[6].title
 fruits[7].number +  " " + fruits[7].title
 fruits[8].number +  " " + fruits[8].title
 fruits[9].number +  " " + fruits[9].title
+
+
+// 개체로 구분해서 한번에 모두 담을수 있다
+// fruits[0].title
+// fruits["레드향"]
