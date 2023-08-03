@@ -26,3 +26,13 @@ fruits[9].number +  " " + fruits[9].title
 // 개체로 구분해서 한번에 모두 담을수 있다
 // fruits[0].title
 // fruits["레드향"]
+
+
+let classmates = [
+  {name1 : "수경" ,age : 134, school : "공주초"},
+  {name1 : "밍" ,age : 127, school : "왕자초"},
+  {name1 : "햄" ,age : 134, school : "여왕초"},
+]
+
+classmates[0].school
+classmates[2].age
