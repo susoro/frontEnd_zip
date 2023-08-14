@@ -15,17 +15,24 @@
 //     console.log("1초가 지났다")
 // },1000)
 
-// 10초 타이머
-let time = 180
-setInterval(function () {
-    if (time >= 0) {
+// 인증번호 날리기
+let auth = () => {
+    const token = String(Math.floor(Math.random() * 100000)).padStart(6, "0")
+    document.getElementById("target").innerText = token
 
-        let min = Math.floor(time / 60)
-        let sec = String(time % 60).padStart(2, "0")
-        console.log(min + ":" + sec)
-        time = time - 1
-    }
+    let time = 180
 
-}, 1000)
+    setInterval(function () {
+
+        if (time >= 0) {
+            let min = Math.floor(time / 60)
+            let sec = String(time % 60).padStart(2, "0")
+            document.getElementById("timer") .innerText = min + ":" + sec
+            time = time - 1
+        }
+    }, 1000)
+
+}
+
 
 // 테스트
